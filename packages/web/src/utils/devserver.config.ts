@@ -68,7 +68,7 @@ function getDevServerPartial(
         pathname: buildServePath(buildOptions),
       });
 
-      logger.info(`NX Web Development Server is listening at ${serverUrl}`);
+      //logger.info(`NX Web Development Server is listening at ${serverUrl}`);
       if (options.open) {
         open(serverUrl);
       }
