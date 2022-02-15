@@ -79,13 +79,13 @@ function getDevServerPartial(
       htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
     },
     onListening(server: any) {
-      logger.info(
-        `NX Web Development Server is listening at ${
-          server.options.https ? 'https' : 'http'
-        }://${server.options.host}:${server.options.port}${buildServePath(
-          buildOptions
-        )}`
-      );
+     // logger.info(
+     //   `NX Web Development Server is listening at ${
+     //     server.options.https ? 'https' : 'http'
+     //   }://${server.options.host}:${server.options.port}${buildServePath(
+     //     buildOptions
+     //   )}`
+     // ); 
     },
     open: options.open,
     static: false,
