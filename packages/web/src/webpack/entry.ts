@@ -14,9 +14,9 @@ let hasLogged = false;
 
 if (exports.isWebpack5) {
   if (!hasLogged) {
-    logger.info(
-      `NX Using webpack 5. Reason: detected version 5 in node_modules/webpack/package.json`
-    );
+    //logger.info(
+    //  `NX Using webpack 5. Reason: detected version 5 in node_modules/webpack/package.json`
+    //);
     hasLogged = true;
   }
   Object.assign(
